@@ -32,9 +32,11 @@ if(st[i].marks>=0&&st[i].age>20&&st[i].marks<=100)
         }
         else
         {
-            printf("student details identified for admission\n");
+            printf("student details identified for admission and not qualified\n");
         }
-    }
+   
+else {
+printf("student not qualified\n");}
 }    
    
     
